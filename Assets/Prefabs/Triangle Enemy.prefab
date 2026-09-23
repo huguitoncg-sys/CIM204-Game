@@ -156,3 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7cd9cdf6a45ff4181de548e84f32f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TriangleEnemy
+  patrolDistance: 2
+  patrolSpeed: 1.5
+  chaseSpeed: 2.5
+  detectionRadius: 3

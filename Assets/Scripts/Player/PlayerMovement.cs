@@ -8,7 +8,19 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Vector2 direction;
 
-    private void Awake() => body = GetComponent<Rigidbody2D>();
+    private void Awake()
+    {
+        body = GetComponent<Rigidbody2D>();
+        var map = FindAnyObjectByType<ReferenceDungeonMap>();
+        if (map != null)
+        {
+            Vector3 spawn = map.Cell(7, 8.5f);
+            spawn.z = transform.position.z;
+            transform.position = spawn;
+            body.position = spawn;
+            body.linearVelocity = Vector2.zero;
+        }
+    }
 
     private void Update()
     {
@@ -30,3 +42,4 @@ public class PlayerMovement : MonoBehaviour
         body.MovePosition(body.position + direction * moveSpeed * Time.fixedDeltaTime);
     }
 }
+

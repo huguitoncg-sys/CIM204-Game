@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 741ffe2710a83394c8a7f952d52f7df9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1698622765170908092
+    second: Kurenai_Updated_Sprite_0
+  - first:
+      213: 2588187690613422876
+    second: Kurenai_Updated_Sprite_1
+  - first:
+      213: -3882297208264088965
+    second: Kurenai_Updated_Sprite_2
+  - first:
+      213: 5330825273044195277
+    second: Kurenai_Updated_Sprite_3
+  - first:
+      213: 5735745169169019512
+    second: Kurenai_Updated_Sprite_4
+  - first:
+      213: -2412966624031227129
+    second: Kurenai_Updated_Sprite_5
+  - first:
+      213: 5905924161185668449
+    second: Kurenai_Updated_Sprite_6
+  - first:
+      213: -4925166682812090417
+    second: Kurenai_Updated_Sprite_7
+  - first:
+      213: -7894332176698774504
+    second: Kurenai_Updated_Sprite_8
+  - first:
+      213: 6612056367613314936
+    second: Kurenai_Updated_Sprite_9
+  - first:
+      213: 4807382605134352448
+    second: Kurenai_Updated_Sprite_10
+  - first:
+      213: 295234611640443072
+    second: Kurenai_Updated_Sprite_11
+  - first:
+      213: 1665188875238926717
+    second: Kurenai_Updated_Sprite_12
+  - first:
+      213: -8243626717985411744
+    second: Kurenai_Updated_Sprite_13
+  - first:
+      213: 8965803420820720845
+    second: Kurenai_Updated_Sprite_14
+  - first:
+      213: -5202563404885169163
+    second: Kurenai_Updated_Sprite_15
+  - first:
+      213: 3406419245388037160
+    second: Kurenai_Updated_Sprite_16
+  - first:
+      213: 8266269092902074031
+    second: Kurenai_Updated_Sprite_17
+  - first:
+      213: -5453771070823490128
+    second: Kurenai_Updated_Sprite_18
+  - first:
+      213: 3713586070952080810
+    second: Kurenai_Updated_Sprite_19
+  - first:
+      213: 6013343528495773315
+    second: Kurenai_Updated_Sprite_20
+  - first:
+      213: 20928346109289083
+    second: Kurenai_Updated_Sprite_21
+  - first:
+      213: -6000545141921723976
+    second: Kurenai_Updated_Sprite_22
+  - first:
+      213: -1057711016185297735
+    second: Kurenai_Updated_Sprite_23
+  - first:
+      213: 866886425185655646
+    second: Kurenai_Updated_Sprite_24
+  - first:
+      213: -4116766506663468581
+    second: Kurenai_Updated_Sprite_25
+  - first:
+      213: 3163282220814313608
+    second: Kurenai_Updated_Sprite_26
+  - first:
+      213: -4413780229254743657
+    second: Kurenai_Updated_Sprite_27
+  - first:
+      213: 5126417595869641542
+    second: Kurenai_Updated_Sprite_28
+  - first:
+      213: 1820753336732361454
+    second: Kurenai_Updated_Sprite_29
+  - first:
+      213: -8265443167028163453
+    second: Kurenai_Updated_Sprite_30
+  - first:
+      213: -1105379463399953566
+    second: Kurenai_Updated_Sprite_31
+  - first:
+      213: -8220277284167678136
+    second: Kurenai_Updated_Sprite_32
+  - first:
+      213: 3943782220084811418
+    second: Kurenai_Updated_Sprite_33
+  - first:
+      213: 7313457541018600308
+    second: Kurenai_Updated_Sprite_34
+  - first:
+      213: -7331613549037456189
+    second: Kurenai_Updated_Sprite_35
+  - first:
+      213: -5899054645139658477
+    second: Kurenai_Updated_Sprite_36
+  - first:
+      213: 8553618372244554515
+    second: Kurenai_Updated_Sprite_37
+  - first:
+      213: -3326769006011295649
+    second: Kurenai_Updated_Sprite_38
+  - first:
+      213: 189212668135686884
+    second: Kurenai_Updated_Sprite_39
+  - first:
+      213: 1370287155721759537
+    second: Kurenai_Updated_Sprite_40
+  - first:
+      213: -2967485532471175555
+    second: Kurenai_Updated_Sprite_41
+  - first:
+      213: 3769012334292540614
+    second: Kurenai_Updated_Sprite_42
+  - first:
+      213: 7426262860488470283
+    second: Kurenai_Updated_Sprite_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Swing_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c6d18372288746894e5935d3f1fcd
+      internalID: 497867823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533ca002b73369643a5a39d236fdb0b0
+      internalID: 119827470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b384421ec3616874d91d3fc2fa675c32
+      internalID: -1276107619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507ab79815ac35c429c4c585a2db3f22
+      internalID: -1997617424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8b2ff17c6327459e2ac123dfab1cf
+      internalID: 660886247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4703ab71e0641b146bfeecb29e2b22ba
+      internalID: 182756525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e09a922e9a2904286927e08a50bb2a
+      internalID: 1874926299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363722f43eb8e8541b60d96c9b66d989
+      internalID: -58798760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51446e2820a32f847a0b938c58dba920
+      internalID: 1605815445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff7c13d3ba337b45b7e2b66a816bcc0
+      internalID: -1623179483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eff4ee6dad848748af157e197f84006
+      internalID: 955243869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6856ff8f6b4c2fd4d992dcee7f5f9b23
+      internalID: -1869468490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_29
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f01cbdc19eadb4faa2e38a80d0321c
+      internalID: -1669548482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf04595eae62e84bb80b39685f2362a
+      internalID: -617909494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29a7806a1e380543865a66b3d06c63b
+      internalID: -429904807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373da265da02b1143956b7c2980c2f00
+      internalID: 1364896932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58119e486f50abf46b262f073cab9e19
+      internalID: -1595964902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swing_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf727b58442e84f8972a47b8be08ae
+      internalID: -456130216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0f432a20325378e4ba2fec1d7d1828ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Swing_17: 497867823
+      Swing_18: 119827470
+      Swing_19: -1276107619
+      Swing_20: -1997617424
+      Swing_21: 660886247
+      Swing_22: 182756525
+      Swing_23: 1874926299
+      Swing_24: -58798760
+      Swing_25: 1605815445
+      Swing_26: -1623179483
+      Swing_27: 955243869
+      Swing_28: -1869468490
+      Swing_29: -1669548482
+      Swing_30: -617909494
+      Swing_31: -429904807
+      Swing_32: 1364896932
+      Swing_33: -1595964902
+      Swing_34: -456130216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

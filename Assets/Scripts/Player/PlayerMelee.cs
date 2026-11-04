@@ -8,6 +8,9 @@ public class PlayerMelee : MonoBehaviour
     [SerializeField, Min(0.1f)] private float attackRadius = 1.9f;
     [SerializeField, Min(0.05f)] private float attackCooldown = 0.35f;
     [SerializeField, Min(0.02f)] private float visualDuration = 0.16f;
+    [SerializeField, Min(0.05f)] private float swingAnimationDuration = 0.20f;
+    public float AttackRadius => attackRadius;
+    public Vector2 Facing => facing;
     private readonly List<Collider2D> overlaps = new List<Collider2D>(16);
     private readonly HashSet<TriangleEnemy> hitEnemies = new HashSet<TriangleEnemy>();
     private PlayerMovement movement;
@@ -17,7 +20,7 @@ public class PlayerMelee : MonoBehaviour
     private Mesh mesh;
     private Material material;
     private float readyAt, hideAt;
-    private Vector2 facing = Vector2.right;
+    private Vector2 facing = Vector2.down;
 
     private void Awake()
     {
@@ -69,7 +72,7 @@ public class PlayerMelee : MonoBehaviour
     private void Update()
     {
         if (visual.enabled && Time.time >= hideAt) visual.enabled = false;
-        if (!movement.enabled) return; // Grid puzzle owns the controls while active.
+        if (!movement.enabled || FirstRoomEncounter.BlocksGameplayInput) return; // Grid puzzle owns the controls while active.
         Keyboard keyboard = Keyboard.current;
         if (keyboard == null) return;
         bool left = keyboard.aKey.isPressed || keyboard.leftArrowKey.isPressed;
@@ -93,7 +96,9 @@ public class PlayerMelee : MonoBehaviour
         swing.localRotation = Quaternion.Euler(0, 0, Mathf.Atan2(facing.y, facing.x) * Mathf.Rad2Deg);
         // Keep radius in world units even if the player has been resized.
         swing.localScale = new Vector3(attackRadius / Mathf.Abs(transform.lossyScale.x), attackRadius / Mathf.Abs(transform.lossyScale.y), 1);
-        visual.enabled = true;
+        var animation = GetComponent<PlayerCharacterAnimation>();
+        bool animated = animation != null && animation.PlaySwing(facing, Mathf.Min(swingAnimationDuration, attackCooldown));
+        visual.enabled = !animated;
         hitShape.enabled = true;
         Physics2D.SyncTransforms();
         ContactFilter2D filter = new ContactFilter2D();
@@ -106,7 +111,7 @@ public class PlayerMelee : MonoBehaviour
         foreach (Collider2D collider in overlaps)
         {
             TriangleEnemy enemy = collider.GetComponentInParent<TriangleEnemy>();
-            if (enemy != null && hitEnemies.Add(enemy)) enemy.TakeDamage(1);
+            if (enemy != null && hitEnemies.Add(enemy)) enemy.TakeDamage(1, facing);
         }
     }
 
@@ -122,5 +127,11 @@ public class PlayerMelee : MonoBehaviour
         if (material != null) Destroy(material);
     }
 }
+
+
+
+
+
+
 
 

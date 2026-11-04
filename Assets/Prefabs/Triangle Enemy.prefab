@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3827721626145245087}
   - component: {fileID: 3592096521593367678}
   - component: {fileID: 8342026042004782756}
+  - component: {fileID: 985229160046624894}
   m_Layer: 0
   m_Name: Triangle Enemy
   m_TagString: Untagged
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c14c0dea54b41154082a5796e52b2ca9, type: 3}
+  m_Sprite: {fileID: 1169427317, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -132,7 +133,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.3333334, y: 1.3333334}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -140,9 +141,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.49, y: -0.5}
-      - {x: 0.49, y: -0.5}
-      - {x: 0, y: 0.49}
+    - - {x: -0.48, y: -0.53}
+      - {x: -0.48, y: -0.22}
+      - {x: -0.2, y: 0.1}
+      - {x: 0.45, y: 0.1}
+      - {x: 0.45, y: -0.53}
   m_UseDelaunayMesh: 1
 --- !u!114 &8342026042004782756
 MonoBehaviour:
@@ -160,3 +163,28 @@ MonoBehaviour:
   patrolSpeed: 1.5
   chaseSpeed: 2.5
   detectionRadius: 3
+  stunDuration: 0.35
+  knockbackSpeed: 8
+  knockbackDeceleration: 32
+--- !u!114 &985229160046624894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729487458261862421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e8da85c5dc60c418eb94ecbdca65db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlugAnimation
+  frames:
+  - {fileID: 1169427317, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: -1409360026, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: 355071772, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: -64110111, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: 2009824005, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: -154357803, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: -206449617, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  - {fileID: -757665378, guid: 695bf16cc8cb8a44abac3407bb91d51f, type: 3}
+  framesPerSecond: 8

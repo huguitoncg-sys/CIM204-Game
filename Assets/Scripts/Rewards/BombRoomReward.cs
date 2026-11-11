@@ -44,7 +44,7 @@ public class BombRoomReward : MonoBehaviour, IPlayerInteraction
     }
     private void OnGUI()
     {
-        if(nearby) GUI.Box(new Rect((Screen.width-200)/2,Screen.height-55,200,35),"E - Open chest");
+        if(nearby) ChestPrompt.Draw();
     }
 
     private void OnDisable()
@@ -52,5 +52,6 @@ public class BombRoomReward : MonoBehaviour, IPlayerInteraction
         if(interaction!=null && ReferenceEquals(interaction.Target,this)) interaction.Target=null;
     }
 }
+
 
 

@@ -185,6 +185,7 @@ public class TriangleEnemy : MonoBehaviour
         knockbackVelocity = (hitDirection.sqrMagnitude > 0.0001f ? hitDirection.normalized : Vector2.down) * knockbackSpeed;
         body.linearVelocity = Vector2.zero;
         hitPoints = Mathf.Max(0, hitPoints - damage);
+        DamageFlash.Play(gameObject, hitPoints == 0);
         if (hitPoints == 0)
         {
             dead = true;
@@ -212,6 +213,7 @@ public class TriangleEnemy : MonoBehaviour
         if (ringMaterial != null) Destroy(ringMaterial);
     }
 }
+
 
 
 

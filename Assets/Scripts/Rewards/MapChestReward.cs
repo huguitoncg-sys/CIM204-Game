@@ -60,7 +60,7 @@ public class MapChestReward : MonoBehaviour, IPlayerInteraction
     {
         Color previous = GUI.color;
         GUI.color = Color.white;
-        if (nearby) GUI.Box(new Rect((Screen.width-200)/2,Screen.height-55,200,35),"E - Open chest");
+        if (nearby) ChestPrompt.Draw();
         if (mapVisible && mapTexture != null && player != null)
         {
             GUI.depth = -20;
@@ -89,6 +89,7 @@ public class MapChestReward : MonoBehaviour, IPlayerInteraction
 
     }
 }
+
 
 
 

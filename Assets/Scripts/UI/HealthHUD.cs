@@ -13,6 +13,8 @@ public class HealthHUD : MonoBehaviour
     {
         if (health == 0) return;
         health = Mathf.Max(0, health - 1);
+        var player = FindAnyObjectByType<PlayerMovement>();
+        if (player != null) DamageFlash.Play(player.gameObject);
         Refresh();
     }
     private void LateUpdate()
@@ -34,5 +36,6 @@ public class HealthHUD : MonoBehaviour
         if (label != null) label.text = "Health: " + health;
     }
 }
+
 
 

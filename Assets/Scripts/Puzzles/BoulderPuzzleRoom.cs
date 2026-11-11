@@ -267,7 +267,7 @@ public class BoulderPuzzleRoom : MonoBehaviour, IPlayerInteraction
         float width = Mathf.Min(Screen.width - 24, Screen.width * 0.48f);
         float padding = 14 * scale;
         float contentWidth = width - padding * 2;
-        string title = "Boulder Passage";
+        string title = "Box Passage";
         string controls = "WASD / Arrows: step and face   |   E: push\nEsc: leave and reset";
         string status = message;
         float titleHeight = titleStyle.CalcHeight(new GUIContent(title), contentWidth);
@@ -285,4 +285,5 @@ public class BoulderPuzzleRoom : MonoBehaviour, IPlayerInteraction
         if (!string.IsNullOrEmpty(status)) GUI.Label(new Rect(left + padding, y, contentWidth, statusHeight), status, detailStyle);
     }
 }
+
 

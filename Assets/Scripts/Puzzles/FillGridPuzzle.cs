@@ -99,6 +99,11 @@ public class FillGridPuzzle : MonoBehaviour
         tiles[current].color = Filled;
         MovePlayer(tiles[current].transform.position);
         solved = filled == PlayableTiles;
+        if (solved)
+        {
+            var map = FindAnyObjectByType<ReferenceDungeonMap>();
+            if (map != null) RespawnCheckpoint.Activate(2, map.Cell(38.5f,16f));
+        }
         stuck = !solved && !CanStep(x + 1, y) && !CanStep(x - 1, y) && !CanStep(x, y + 1) && !CanStep(x, y - 1);
     }
 
@@ -136,6 +141,7 @@ public class FillGridPuzzle : MonoBehaviour
         Physics2D.SyncTransforms();
     }
 
+    public void ExitForRespawn() { if (active) Leave(); }
     private void Leave()
     {
         if (solved)
@@ -171,12 +177,12 @@ public class FillGridPuzzle : MonoBehaviour
         if (!active) return;
         if (titleStyle == null)
         {
-            titleStyle = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold, wordWrap = true };
-            detailStyle = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, wordWrap = true };
+            titleStyle = new GUIStyle(GUI.skin.label) { font = GameUIFont.Font, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Normal, wordWrap = true };
+            detailStyle = new GUIStyle(GUI.skin.label) { font = GameUIFont.Font, alignment = TextAnchor.MiddleCenter, wordWrap = true };
         }
         float scale = Mathf.Clamp(Screen.height / 1080f, 0.75f, 1.6f);
-        titleStyle.fontSize = Mathf.RoundToInt(38 * scale);
-        detailStyle.fontSize = Mathf.RoundToInt(26 * scale);
+        titleStyle.fontSize = Mathf.RoundToInt(32 * scale);
+        detailStyle.fontSize = Mathf.RoundToInt(24 * scale);
         float width = Mathf.Min(Screen.width - 24, Screen.width * 0.48f);
         float padding = 14 * scale;
         float contentWidth = width - padding * 2;
@@ -198,6 +204,7 @@ public class FillGridPuzzle : MonoBehaviour
         if (!string.IsNullOrEmpty(status)) GUI.Label(new Rect(left + padding, y, contentWidth, statusHeight), status, detailStyle);
     }
 }
+
 
 
 

@@ -9,6 +9,7 @@ public class HealthHUD : MonoBehaviour
 
     public void SetLabel(Text value) { label = value; Refresh(); }
     private void Awake() { health = 3; Refresh(); }
+    public void ResetHealth() { health = 3; Refresh(); }
     public void TakeDamage()
     {
         if (health == 0) return;
@@ -36,6 +37,7 @@ public class HealthHUD : MonoBehaviour
         if (label != null) label.text = "Health: " + health;
     }
 }
+
 
 
 

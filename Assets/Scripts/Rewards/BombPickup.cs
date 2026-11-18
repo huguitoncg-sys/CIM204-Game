@@ -23,7 +23,7 @@ public class BombPickup : MonoBehaviour
         textObject.transform.localPosition = new Vector3(0, 1, 0);
         var text = textObject.AddComponent<TextMesh>();
         text.text = "+1 Bomb";
-        text.fontSize = 48;
+        text.fontSize = 48; GameUIFont.StyleWorldText(text);
         text.characterSize = 0.12f;
         text.anchor = TextAnchor.LowerCenter;
         text.color = Color.white;

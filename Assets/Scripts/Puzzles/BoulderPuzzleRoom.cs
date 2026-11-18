@@ -244,6 +244,7 @@ public class BoulderPuzzleRoom : MonoBehaviour, IPlayerInteraction
         if (transition != null) transition.enabled = wasTransition;
         if (interaction != null && ReferenceEquals(interaction.Target, this)) interaction.Target = null;
     }
+    public void ExitForRespawn() { OnDisable(); }
     private void OnDisable()
     {
         StopAllCoroutines();
@@ -258,12 +259,12 @@ public class BoulderPuzzleRoom : MonoBehaviour, IPlayerInteraction
         if (!active || fading) return;
         if (titleStyle == null)
         {
-            titleStyle = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold, wordWrap = true };
-            detailStyle = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, wordWrap = true };
+            titleStyle = new GUIStyle(GUI.skin.label) { font = GameUIFont.Font, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Normal, wordWrap = true };
+            detailStyle = new GUIStyle(GUI.skin.label) { font = GameUIFont.Font, alignment = TextAnchor.MiddleCenter, wordWrap = true };
         }
         float scale = Mathf.Clamp(Screen.height / 1080f, 0.75f, 1.6f);
-        titleStyle.fontSize = Mathf.RoundToInt(38 * scale);
-        detailStyle.fontSize = Mathf.RoundToInt(26 * scale);
+        titleStyle.fontSize = Mathf.RoundToInt(32 * scale);
+        detailStyle.fontSize = Mathf.RoundToInt(24 * scale);
         float width = Mathf.Min(Screen.width - 24, Screen.width * 0.48f);
         float padding = 14 * scale;
         float contentWidth = width - padding * 2;
@@ -285,5 +286,6 @@ public class BoulderPuzzleRoom : MonoBehaviour, IPlayerInteraction
         if (!string.IsNullOrEmpty(status)) GUI.Label(new Rect(left + padding, y, contentWidth, statusHeight), status, detailStyle);
     }
 }
+
 
 

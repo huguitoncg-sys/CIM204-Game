@@ -108,8 +108,11 @@ public class PlayerMelee : MonoBehaviour
         hitShape.Overlap(filter, overlaps);
         hitShape.enabled = false;
         hitEnemies.Clear();
+        var bossTargets = new HashSet<BossCombatTarget>();
         foreach (Collider2D collider in overlaps)
         {
+            var bossTarget = collider.GetComponentInParent<BossCombatTarget>();
+            if (bossTarget != null && bossTargets.Add(bossTarget)) bossTarget.TakeDamage(1);
             TriangleEnemy enemy = collider.GetComponentInParent<TriangleEnemy>();
             if (enemy != null && hitEnemies.Add(enemy)) enemy.TakeDamage(1, facing);
         }
@@ -127,6 +130,7 @@ public class PlayerMelee : MonoBehaviour
         if (material != null) Destroy(material);
     }
 }
+
 
 
 

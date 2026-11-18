@@ -21,6 +21,7 @@ public class PlayerBombs : MonoBehaviour
         gameObject.AddComponent<BombHUD>().Initialize(this);
         CountChanged?.Invoke(BombCount);
     }
+    public void RestoreCheckpointCount(int count) { BombCount = Mathf.Max(0, count); CountChanged?.Invoke(BombCount); }
     public bool AddBombs(int amount)
     {
         if (!IsUnlocked || amount <= 0) return false;
@@ -43,3 +44,4 @@ public class PlayerBombs : MonoBehaviour
         }
     }
 }
+

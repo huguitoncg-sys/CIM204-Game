@@ -118,14 +118,14 @@ public class FirstRoomEncounter : MonoBehaviour
         if (!popupOpen) return;
         if (messageStyle == null)
         {
-            Font font = hudText != null ? hudText.font : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
-            FontStyle style = hudText != null ? hudText.fontStyle : FontStyle.Bold;
+            Font font = GameUIFont.Font;
+            FontStyle style = FontStyle.Normal;
             messageStyle = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, wordWrap = true, font = font, fontStyle = style };
             buttonStyle = new GUIStyle(GUI.skin.button) { font = font, fontStyle = style };
         }
         float height = Screen.height / 3f;
         float top = Screen.height - height;
-        int fontSize = hudText != null ? Mathf.RoundToInt(hudText.fontSize * (hudText.canvas != null ? hudText.canvas.scaleFactor : 1f)) : Mathf.RoundToInt(Screen.height * 0.035f);
+        int fontSize = Mathf.RoundToInt(30 * Mathf.Clamp(Screen.height / 1080f, 0.65f, 1.6f));
         messageStyle.fontSize = buttonStyle.fontSize = Mathf.Max(12, fontSize);
         GUI.depth = -100;
         Color previous = GUI.color;

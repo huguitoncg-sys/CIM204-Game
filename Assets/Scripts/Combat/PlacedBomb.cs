@@ -18,7 +18,7 @@ public class PlacedBomb : MonoBehaviour
         label.transform.localPosition=new Vector3(0,1.15f,0);
         countdown=label.AddComponent<TextMesh>(); countdown.text="3"; countdown.anchor=TextAnchor.MiddleCenter;
         countdown.alignment=TextAlignment.Center; countdown.fontSize=64; countdown.characterSize=0.18f; countdown.color=Color.white;
-        label.GetComponent<MeshRenderer>().sortingOrder=30;
+        GameUIFont.StyleWorldText(countdown); label.GetComponent<MeshRenderer>().sortingOrder=30;
     }
     private void Update()
     {
@@ -43,9 +43,12 @@ public class PlacedBomb : MonoBehaviour
         Physics2D.OverlapCircle(transform.position,radius,filter,hits);
         var enemies=new HashSet<TriangleEnemy>();
         var walls=new HashSet<BombBreakableWall>();
+        var bossTargets=new HashSet<BossCombatTarget>();
         bool hurtPlayer=false;
         foreach(var hit in hits)
         {
+            var bossTarget=hit.GetComponentInParent<BossCombatTarget>();
+            if(bossTarget!=null && bossTargets.Add(bossTarget)) bossTarget.TakeDamage(1);
             var enemy=hit.GetComponentInParent<TriangleEnemy>();
             if(enemy!=null && enemies.Add(enemy)) enemy.TakeDamage(1, (Vector2)(enemy.transform.position - transform.position));
             var wall=hit.GetComponentInParent<BombBreakableWall>();
@@ -62,4 +65,5 @@ public class PlacedBomb : MonoBehaviour
         visual.color=new Color(1,0.55f,0.1f,0.6f);
     }
 }
+
 

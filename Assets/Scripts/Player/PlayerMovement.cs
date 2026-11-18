@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Min(0f)] private float moveSpeed = 5f;
     private Rigidbody2D body;
     private Vector2 direction;
+    private PlayerStun stun;
 
     private void Awake()
     {
@@ -39,7 +40,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (stun == null) stun = GetComponent<PlayerStun>();
+        if (stun != null && stun.IsStunned) { body.linearVelocity = Vector2.zero; return; }
         body.MovePosition(body.position + direction * moveSpeed * Time.fixedDeltaTime);
     }
 }
+
 

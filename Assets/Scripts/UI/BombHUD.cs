@@ -36,7 +36,7 @@ public class BombHUD : MonoBehaviour
             label.alignment = template.alignment;
             label.horizontalOverflow = HorizontalWrapMode.Overflow;
             label.verticalOverflow = VerticalWrapMode.Overflow;
-            label.raycastTarget = false;
+            label.raycastTarget = false; GameUIFont.StyleHUD(label, 2);
         }
         inventory.CountChanged += Refresh;
         Refresh(inventory.BombCount);

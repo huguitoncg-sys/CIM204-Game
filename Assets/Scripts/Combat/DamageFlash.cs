@@ -6,6 +6,7 @@ public class DamageFlash : MonoBehaviour
     private Color normalColor;
     private float endsAt;
     private bool flashing, transient;
+    public bool IsFlashing => flashing;
     public static void Play(GameObject target, bool finalHit = false)
     {
         var source = target.GetComponent<SpriteRenderer>();
@@ -47,6 +48,7 @@ public class DamageFlash : MonoBehaviour
         if (transient) { Destroy(gameObject); return; }
         Restore();
     }
+    public void Cancel() => Restore();
     private void Restore()
     {
         if (flashing && visual != null) visual.color = normalColor;
@@ -54,3 +56,5 @@ public class DamageFlash : MonoBehaviour
     }
     private void OnDisable() => Restore();
 }
+
+

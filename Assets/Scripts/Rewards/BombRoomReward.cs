@@ -40,7 +40,7 @@ public class BombRoomReward : MonoBehaviour, IPlayerInteraction
         opened=true; nearby=false;
         if(ReferenceEquals(interaction.Target,this)) interaction.Target=null;
         chest.GetComponent<SpriteRenderer>().sprite=CastleArt.Get("ChestOpen");
-        bombs.Unlock(); popup.ShowBombReward();
+        bombs.Unlock(); RespawnCheckpoint.Activate(1, map.Cell(22f,55.5f)); popup.ShowBombReward();
     }
     private void OnGUI()
     {
@@ -52,6 +52,7 @@ public class BombRoomReward : MonoBehaviour, IPlayerInteraction
         if(interaction!=null && ReferenceEquals(interaction.Target,this)) interaction.Target=null;
     }
 }
+
 
 
 

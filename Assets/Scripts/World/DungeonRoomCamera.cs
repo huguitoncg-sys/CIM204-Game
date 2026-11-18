@@ -45,6 +45,7 @@ public class DungeonRoomCamera : MonoBehaviour
         new Rect(60,43,18,18), new Rect(54,48,4,8), new Rect(80,45,7,14),
         new Rect(48,70,42,21), new Rect(65,91,8,7)
     };
+    public void SnapAfterRespawn() { initialized = false; positionVelocity = Vector3.zero; zoomVelocity = 0; }
     private void Awake() => view = GetComponent<Camera>();
     private void LateUpdate()
     {
@@ -84,6 +85,7 @@ public class DungeonRoomCamera : MonoBehaviour
         view.orthographicSize = Mathf.SmoothDamp(view.orthographicSize, size,
             ref zoomVelocity, transitionSmoothTime, Mathf.Infinity, Time.deltaTime);
     }}
+
 
 
 

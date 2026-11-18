@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 3fe40ca6cbbdea4429576ecb4bd3b9ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 244889120727501370
+    second: DaimaSpritesheet_0
+  - first:
+      213: -6233472229130266927
+    second: DaimaSpritesheet_1
+  - first:
+      213: -4801712132666711320
+    second: DaimaSpritesheet_2
+  - first:
+      213: 2013985273266870258
+    second: DaimaSpritesheet_3
+  - first:
+      213: -2420238038390154716
+    second: DaimaSpritesheet_4
+  - first:
+      213: 4222519325996876926
+    second: DaimaSpritesheet_5
+  - first:
+      213: 4363801628194242909
+    second: DaimaSpritesheet_6
+  - first:
+      213: -137010125741212635
+    second: DaimaSpritesheet_7
+  - first:
+      213: 3765676755880463989
+    second: DaimaSpritesheet_8
+  - first:
+      213: 8135571970554548929
+    second: DaimaSpritesheet_9
+  - first:
+      213: -8221322428005597144
+    second: DaimaSpritesheet_10
+  - first:
+      213: -4578148200007390788
+    second: DaimaSpritesheet_11
+  - first:
+      213: -7135828719027570948
+    second: DaimaSpritesheet_12
+  - first:
+      213: -479647152010955949
+    second: DaimaSpritesheet_13
+  - first:
+      213: 6834838052694003246
+    second: DaimaSpritesheet_14
+  - first:
+      213: 5726246183703088690
+    second: DaimaSpritesheet_15
+  - first:
+      213: -8740246665891354905
+    second: DaimaSpritesheet_16
+  - first:
+      213: -8983808972649866769
+    second: DaimaSpritesheet_17
+  - first:
+      213: 7170298686275947796
+    second: DaimaSpritesheet_18
+  - first:
+      213: 2141627983562702082
+    second: DaimaSpritesheet_19
+  - first:
+      213: 1025930675379782342
+    second: DaimaSpritesheet_20
+  - first:
+      213: -2220974782598186992
+    second: DaimaSpritesheet_21
+  - first:
+      213: -6134766513413170136
+    second: DaimaSpritesheet_22
+  - first:
+      213: 1597337020113560452
+    second: DaimaSpritesheet_23
+  - first:
+      213: -2192915068403215204
+    second: DaimaSpritesheet_24
+  - first:
+      213: 4226668384705626271
+    second: DaimaSpritesheet_25
+  - first:
+      213: -3192338042909434756
+    second: DaimaSpritesheet_26
+  - first:
+      213: 3202142757722501865
+    second: DaimaSpritesheet_27
+  - first:
+      213: -7586878598622187182
+    second: DaimaSpritesheet_28
+  - first:
+      213: 5042823317996949425
+    second: DaimaSpritesheet_29
+  - first:
+      213: 1992591488124106529
+    second: DaimaSpritesheet_30
+  - first:
+      213: 2263287319928897409
+    second: DaimaSpritesheet_31
+  - first:
+      213: -3112396920713476817
+    second: DaimaSpritesheet_32
+  - first:
+      213: -2960587735578360047
+    second: DaimaSpritesheet_33
+  - first:
+      213: 6585896973048499790
+    second: DaimaSpritesheet_34
+  - first:
+      213: -8156474917233227243
+    second: DaimaSpritesheet_35
+  - first:
+      213: 3721676866848493540
+    second: DaimaSpritesheet_36
+  - first:
+      213: 4286669390608839261
+    second: DaimaSpritesheet_37
+  - first:
+      213: 7834406878739054026
+    second: DaimaSpritesheet_38
+  - first:
+      213: 833130103134382504
+    second: DaimaSpritesheet_39
+  - first:
+      213: 4782053518083981169
+    second: DaimaSpritesheet_40
+  - first:
+      213: 858231026720814528
+    second: DaimaSpritesheet_41
+  - first:
+      213: -721581664779443956
+    second: DaimaSpritesheet_42
+  - first:
+      213: -5887135568803321326
+    second: DaimaSpritesheet_43
+  - first:
+      213: 9208218813369694104
+    second: DaimaSpritesheet_44
+  - first:
+      213: 6068355778788299188
+    second: DaimaSpritesheet_45
+  - first:
+      213: -5696731387209141024
+    second: DaimaSpritesheet_46
+  - first:
+      213: -4908333854612403765
+    second: DaimaSpritesheet_47
+  - first:
+      213: -8832217824136863905
+    second: DaimaSpritesheet_48
+  - first:
+      213: 9094750773016819283
+    second: DaimaSpritesheet_49
+  - first:
+      213: -6178482310435439034
+    second: DaimaSpritesheet_50
+  - first:
+      213: 2592337853133360930
+    second: DaimaSpritesheet_51
+  - first:
+      213: 1795256982486104834
+    second: DaimaSpritesheet_52
+  - first:
+      213: 4343917495846092313
+    second: DaimaSpritesheet_53
+  - first:
+      213: -2264380261877767833
+    second: DaimaSpritesheet_54
+  - first:
+      213: 3371061000516664243
+    second: DaimaSpritesheet_55
+  - first:
+      213: -5129403410837302998
+    second: DaimaSpritesheet_56
+  - first:
+      213: 4054319904314999679
+    second: DaimaSpritesheet_57
+  - first:
+      213: 2202420062189846297
+    second: DaimaSpritesheet_58
+  - first:
+      213: 708963597235287858
+    second: DaimaSpritesheet_59
+  - first:
+      213: 255721580434014388
+    second: DaimaSpritesheet_60
+  - first:
+      213: 269952864521691265
+    second: DaimaSpritesheet_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Daima_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e857bb5d980374ebe607b51470a38d
+      internalID: 589324818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_01
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd5d6da3ab35b940a2cbb81c9472feb
+      internalID: 2022184003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983e09b6badda24baef96658efb5d91
+      internalID: 245865357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10287cd1ff3179c43865a45aeae97248
+      internalID: -1095206501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976b21045ca29e44a3726bb87a5930f
+      internalID: -75248050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_05
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee557a90828e1246899ef60374ee73d
+      internalID: 594526539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0fb07d1415f384d880b8858e293edc
+      internalID: 594146248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_07
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45a3b2fde6bb5438e9a2947f4b2592
+      internalID: 1787665396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ee6ebe490166b4db161d9574c16634
+      internalID: -2129766865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948fcc094bd33b54ca7d0ab652d4f1e7
+      internalID: 706917768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb8c361be75624d989ebc2b0cf5a48
+      internalID: -692846382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daima_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8858653b1d66140a1bf0892249a6e1
+      internalID: -210447731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c5ff8eef6604189468ad652fe6cf779c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Daima_00: 589324818
+      Daima_01: 2022184003
+      Daima_02: 245865357
+      Daima_03: -1095206501
+      Daima_04: -75248050
+      Daima_05: 594526539
+      Daima_06: 594146248
+      Daima_07: 1787665396
+      Daima_08: -2129766865
+      Daima_09: 706917768
+      Daima_10: -692846382
+      Daima_11: -210447731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

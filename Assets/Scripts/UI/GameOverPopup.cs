@@ -41,6 +41,11 @@ public class GameOverPopup : MonoBehaviour
         if (restarting) return;
         restarting = true;
         Time.timeScale = 1f;
+        if (RespawnCheckpoint.Respawn())
+        {
+            IsOpen = false; restarting = false; ready = false;
+            return;
+        }
         var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.path);
     }
@@ -49,8 +54,8 @@ public class GameOverPopup : MonoBehaviour
         if (!IsOpen || restarting) return;
         GUI.depth = -1000;
         float scale = Mathf.Clamp(Screen.height / 1080f, 0.75f, 1.6f);
-        var title = new GUIStyle(GUI.skin.label) { font = font, fontSize = Mathf.RoundToInt(38 * scale), alignment = TextAnchor.MiddleCenter };
-        var button = new GUIStyle(GUI.skin.button) { font = font, fontSize = Mathf.RoundToInt(30 * scale) };
+        var title = new GUIStyle(GUI.skin.label) { font = GameUIFont.Font, fontSize = Mathf.RoundToInt(38 * scale), alignment = TextAnchor.MiddleCenter };
+        var button = new GUIStyle(GUI.skin.button) { font = GameUIFont.Font, fontSize = Mathf.RoundToInt(30 * scale) };
         var panel = new Rect(0, Screen.height * 2f / 3f, Screen.width, Screen.height / 3f);
         GUI.Box(panel, GUIContent.none);
         GUI.Label(new Rect(0, panel.y + 20 * scale, Screen.width, 70 * scale), "Game over", title);
@@ -62,3 +67,4 @@ public class GameOverPopup : MonoBehaviour
         if (IsOpen) { IsOpen = false; Time.timeScale = 1f; }
     }
 }
+
